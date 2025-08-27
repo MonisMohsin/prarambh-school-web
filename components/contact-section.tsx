@@ -117,9 +117,10 @@ export function ContactSection() {
             </Card>
 
             {/* Google Map Embed */}
+            {/* Google Map Embed - India */}
             <div className="aspect-video rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE_HERE"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4866681.744258868!2d72.57974222341308!3d22.35111483323278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff336f5a6f7%3A0x62f8f3bfe0a4baf3!2sIndia!5e0!3m2!1sen!2sin!4v1693423999999!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
