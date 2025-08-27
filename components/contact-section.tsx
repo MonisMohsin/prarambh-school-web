@@ -116,11 +116,17 @@ export function ContactSection() {
               </CardContent>
             </Card>
 
-            {/* Map Placeholder */}
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-              <p className="text-muted-foreground">
-                Interactive Map Coming Soon
-              </p>
+            {/* Google Map Embed */}
+            <div className="aspect-video rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE_HERE"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
 
